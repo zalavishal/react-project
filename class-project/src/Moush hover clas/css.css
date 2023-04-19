@@ -1,0 +1,23 @@
+.cursor__dot div {
+    z-index: 999999 !important;
+}
+
+.cursor__dot div:last-child {
+    background-color: rgb(204, 0, 0) !important;
+}
+
+.cursor__dot div:first-child {
+    filter: invert(1);
+    background-color: rgb(12 12 12 / 63%) !important;
+}
+
+/* <div className="cursor__dot">
+<AnimatedCursor
+    innerSize={15}
+    outerSize={15}
+    color="255, 255 ,255"
+    outerAlpha={0.4}
+    innerScale={0.7}
+    outerScale={5}
+/>
+</div> */
